@@ -1,0 +1,4 @@
+# Ruff es una herramienta de análisis de código estático para Python que ayuda
+# a identificar problemas de estilo, errores potenciales y otros problemas en el
+# código.
+ruff==0.8.1
