@@ -12,3 +12,10 @@ class Calculator:
         if b == 0:
             raise ValueError("No se puede dividir entre cero")
         return a / b
+
+if __name__ == "__main__":
+    calc = Calculator()
+    print("Suma:", calc.sum(2, 3))
+    print("Resta:", calc.subtract(5, 2))
+    print("Multiplicación:", calc.multiply(4, 5))
+    print("División:", calc.divide(10, 2))
